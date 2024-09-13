@@ -8,15 +8,25 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
+
 1.Import pandas module and import the required data set.
+
 2.Find the null values and count them.
+
 3.Count number of left values.
+
 4.From sklearn import LabelEncoder to convert string values to numerical values.
+
 5.From sklearn.model_selection import train_test_split.
+
 6.Assign the train dataset and test dataset.
+
 7.From sklearn.tree import DecisionTreeClassifier.
+
 8.Use criteria as entropy.
+
 9.From sklearn import metrics.
+
 10.Find the accuracy of our model and predict the require values.
 
 ## Program:
@@ -52,13 +62,13 @@ dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 ```
 
 ## Output:
-# Data:
+Data:
 ![Screenshot 2024-09-13 142258](https://github.com/user-attachments/assets/23e43e13-5487-4d23-8500-bc16448a493a)
 
-# Accuray:
+ Accuray:
  ![image](https://github.com/user-attachments/assets/6bfaae2a-fe34-4383-9682-4b339365c15f)
 
-# Predict:
+Predict:
 ![image](https://github.com/user-attachments/assets/8d42ee5f-f62f-4c32-96c8-03a3148aeda8)
 
 ## Result:
